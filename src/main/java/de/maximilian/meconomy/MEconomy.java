@@ -19,6 +19,7 @@ public final class MEconomy extends JavaPlugin {
         // Command-Executors registrieren
         this.getCommand("balance").setExecutor(new balancecommand(this));
         this.getCommand("addcoins").setExecutor(new addcoinscommand(this));
+        this.getCommand("removecoins").setExecutor(new removecoinscommand(this));
 
         getLogger().info("MEconomy wurde aktiviert.");
     }

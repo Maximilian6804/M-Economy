@@ -9,4 +9,7 @@ commands:
     usage: /balance
   addcoins:
     description: Fügt deinem Konto Stackycoins hinzu.
-    usage: /addcoins
+    usage: /addcoins <Betrag>
+  removecoins:
+    description: Entfernt Stackycoins von deinem Konto.
+    usage: /removecoins <Betrag>
