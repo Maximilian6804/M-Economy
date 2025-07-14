@@ -3,13 +3,19 @@ version: '1.0'
 main: de.maximilian.meconomy.MEconomy
 api-version: '1.21'
 author: Maximilian
+depend:
+  - M-API
 commands:
   balance:
     description: Zeigt deinen Kontostand an!
     usage: /balance
+    aliases: /bal
   addcoins:
     description: Fügt deinem Konto Stackycoins hinzu.
     usage: /addcoins <Betrag>
   removecoins:
     description: Entfernt Stackycoins von deinem Konto.
     usage: /removecoins <Betrag>
+  donate:
+    description: Sende einem anderen Spieler Stackycoins!
+    usage: /donate <Spieler> <Betrag>
