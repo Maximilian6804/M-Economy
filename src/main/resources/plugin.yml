@@ -1,0 +1,12 @@
+name: M-Economy
+version: '1.0'
+main: de.maximilian.meconomy.MEconomy
+api-version: '1.21'
+author: Maximilian
+commands:
+  balance:
+    description: Zeigt deinen Kontostand an!
+    usage: /balance
+  addcoins:
+    description: Fügt deinem Konto Stackycoins hinzu.
+    usage: /addcoins
